@@ -1,45 +1,67 @@
-# 🚗 E-Parking Management System
+🚗 E-Parking Management System
+A modern, web-based parking solution that enables users to digitally book and manage parking spaces. It aims to reduce urban congestion and optimize parking resource utilization using real-time booking, check-in/out, payment simulation, and admin analytics.
 
-A web-based parking management solution that allows users to reserve parking slots in real time. The system reduces traffic congestion and improves the efficiency of parking space usage in urban areas by providing a simple, interactive, and digital alternative to traditional parking systems.
+📌 Features
+👥 User Panel
+🔐 Register/Login with validation
 
----
+🅿️ View real-time parking slot availability
 
-## 📌 Features
+🛒 Book parking slots (with animated UI)
 
-### 👥 User Side
-- Register and log in
-- View real-time parking slot availability
-- Book and reserve slots by location and time
-- Make secure online payments (simulated)
-- View booking history
+💳 Simulated payments via JazzCash, EasyPaisa, or Card
 
+📜 View full booking history with Check-in ✅ and Check-out ❌ options
 
-### 🧑‍💼 Admin Side
-- Admin login dashboard
-- Manage parking slot availability
-- View and manage user bookings
-- Control user access and generate reports
+🌓 Fully responsive Dark/Light mode toggle
 
----
+🧑‍💼 Admin Panel
+🔐 Secure Admin Login
 
-## 🧑‍💻 Tech Stack
+📊 Dashboard with Analytics:
 
-| Layer        | Technology                 |
-|--------------|----------------------------|
-| **Frontend** | HTML, CSS, JavaScript, Bootstrap |
-| **Backend**  | PHP                        |
-| **Database** | MySQL                      |
+Total bookings
 
----
+Total users
 
-## 🌍 Application Areas
+Most booked slot
 
-- Smart Cities
-- Airports
-- Shopping Malls
-- University Campuses
-- Corporate Parking
-- Public Parking Zones
+Daily bookings chart using Chart.js
 
----
+📃 View all user bookings
 
+♻️ Reset all slots with confirmation
+
+🎨 Enhanced UI for cards, badges, icons, and lists
+
+🛠️ Tech Stack
+Layer	Technology
+Frontend	HTML, CSS, JavaScript, Bootstrap 5, Bootstrap Icons
+UI Effects	Animate.css, Modal popups, Custom themes
+Backend	PHP
+Database	MySQL
+Visualization	Chart.js
+
+🌐 Application Areas
+Smart Cities
+
+Public & Paid Parking Lots
+
+Airports
+
+Shopping Malls
+
+University & College Campuses
+
+Event Venues & Stadiums
+
+🧪 Setup & Usage
+✅ Clone this repo
+
+🗂 Unzip in htdocs/ (XAMPP)
+
+🔥 Start Apache & MySQL from XAMPP
+
+🗃 Import the eparking.sql DB in phpMyAdmin
+
+🌐 Open http://localhost/eparking in your browser
