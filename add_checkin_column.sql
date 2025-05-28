@@ -1,1 +1,0 @@
-ALTER TABLE bookings ADD COLUMN is_checked_in BOOLEAN DEFAULT 0;
